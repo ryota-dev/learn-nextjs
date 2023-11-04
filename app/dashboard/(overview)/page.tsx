@@ -9,6 +9,11 @@ import {
   CardsSkeleton,
 } from '@/app/ui/skeletons';
 import Cards from '../../ui/dashboard/cards';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Dashboard',
+};
 
 export default async function Page() {
   return (
